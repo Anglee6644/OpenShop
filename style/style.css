@@ -1,0 +1,784 @@
+@import 'fonts.css';
+
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box !important;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+body {
+    background: white;
+  
+}
+
+/* */
+.header__nav {
+    background:  #313131;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+
+.header__nav-links {
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    font-family: 'NR';
+    color: #FFFFFF;
+}
+.header__nav-links:hover {
+    color: #FFFFFF;
+}
+
+.header__nav-language {
+    gap: 79px;
+}
+
+.header__nav-content {
+    gap: 40px;
+
+}
+
+.header__icon::before {
+    content:'\f106';
+    width: 14px;
+    height: 8px;
+    margin-left: 8px;
+    color: #FFFFFF;
+    transform: rotate(180deg);
+}
+
+.header__icon-call::after {
+    content: '\f879';
+    width: 15px;
+    height: 15px;
+    color: #FFFFFF;
+    margin-right: 8px;
+}
+
+
+.header__icon-user::before {
+    content: '\f007';
+    color: #FFFFFF;
+    width: 15px;
+    height: 8px;
+    margin-right: 7px;
+}
+
+.header__icon-cart::after {
+    content: '\f07a';
+    color: #FFFFFF;
+    width: 17px;
+    height: 13px;
+    margin-right: 7px;
+}
+
+.header__nav-search {
+    max-width: 630px;
+    width: 100%;
+    border: 1px solid #313131;
+    margin: 0 auto;
+}
+
+.form-control {
+    border-radius: 0%;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'NR';
+    color: #BBBBBB !important;
+}
+
+.header__nav-btn {
+    max-width: 190px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 0%;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'NR';
+    text-align: center;
+    color: #FFFFFF;
+    background: #313131;
+    border-color: #313131;
+}
+
+.header__nav-btn, .header__nav-btn:hover {
+    background: #313131;
+    border-color: #313131;
+}
+
+
+.header__nav-span::after {
+    content:'\f002';
+    width: 18px;
+    height: 18px;
+    color: white;
+    margin-right: 9px;
+}
+
+.nav {
+    margin-top: 35px;
+}
+
+
+.header__nav-about {
+    font-size: 18px;
+    line-height: 70px;
+    font-family: 'NR';
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #313131;
+}
+
+.header__nav-about:hover {
+    color: #313131 !important;
+}
+
+.nav__dropdown {
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'NL';
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #313131;
+}
+
+
+.nav__dropdown-title {
+    font-size: 16px;
+    line-height: 70px;
+    font-family: 'NR';
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-decoration-line: underline;
+    color: #313131;
+}
+
+.carousel-indicators [data-bs-target] {
+    background: #ABABAB;
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    background: #313131;
+}
+
+
+.main__content-title {
+    font-size: 48px;
+    line-height: 70px;
+    font-family: 'NSB';
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #313131;
+    margin-bottom: 121px;
+    margin-top: 113px;
+}
+
+.main__content-link  {
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'NR';
+    text-align: center;
+    color: #FFFFFF !important;
+    background: #313131;
+    padding: 12px 46px;
+    max-width: 190px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main__content-span {
+    top: 20px;
+    left: 20px;
+    font-size: 20px;
+    line-height: 70px;
+    font-family: 'NR';
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: #313131;
+    padding: 5px 15px;
+    border-radius: 55%;
+}
+
+.main__content-span-description {
+    bottom: 50px;
+    left: 20px;
+    font-size: 24px;
+    line-height: 70px;
+    font-size: 'NM';
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #313131;
+    
+}
+
+.main__content-span-price {
+    bottom: 15px;
+    left: 20px;
+    font-size: 24px;
+    line-height: 70px;
+    font-family: 'NL';
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #313131;
+}
+
+.main__content-airpods-description {
+    top: 145px;
+    left: 20px;
+    font-size: 24px;
+    line-height: 70px;
+    font-size: 'NM';
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #313131;
+}
+
+.main__content-airpods-price {
+    top: 175px;
+    left: 20px;
+    font-size: 24px;
+    line-height: 70px;
+    font-family: 'NL';
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #313131;
+}
+
+.main__content-powerbank {
+    left: 20px;
+    bottom: 15px;
+    font-size: 20px;
+    line-height: 70px;
+    font-family: 'NR';
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: #313131;
+    padding: 5px 15px;
+    border-radius: 55%;
+}
+
+.main__content-powerbank-price {
+    top: 73px;
+    left: 20px;
+    font-size: 24px;
+    line-height: 70px;
+    font-family: 'NL';
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #313131;
+}
+
+
+.main__content-powerbank-description {
+    top: 15px;
+    left: 20px;
+    font-size: 24px;
+    line-height: 30px;
+    font-size: 'NM';
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #313131;
+}
+
+.main__content-charger {
+    left: 20px;
+    bottom: 15px;
+    font-size: 20px;
+    line-height: 70px;
+    font-family: 'NR';
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: #313131;
+    padding: 5px 15px;
+    border-radius: 55%;
+}
+
+.main__content-charger-description {
+    top: 15px;
+    left: 20px;
+    font-size: 24px;
+    line-height: 30px;
+    font-size: 'NM';
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #313131;
+}
+
+.main__content-charger-price {
+    top: 55px;
+    left: 20px;
+    font-size: 24px;
+    line-height: 70px;
+    font-family: 'NL';
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #313131;
+}
+
+.main__content-right-charger {
+    margin-top: 30px;
+    background: rgb(244, 244, 244);
+
+}
+
+
+.main__content-right-powerbank {
+    margin-top: 30px;
+    background: rgb(244, 244, 244);
+  
+}
+
+.main__content-airpods {
+    background: rgb(244, 244, 244);
+}
+
+.main__content-watch {
+        background: rgb(244, 244, 244);
+}
+
+.main__content-right-charger {
+    background: rgb(244, 244, 244);
+  
+}
+
+.main__content-left {
+    margin-top: 50px;
+}
+
+.main__content-right {
+    margin-top: 50px;
+    
+}
+
+.main__title {
+    font-size: 36px;
+    line-height: 49px;
+    color: #313131;
+    font-family: 'NSB';
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+
+
+.main__link {
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'NR';
+    text-align: center;
+    color: #FFFFFF !important;
+    background: #313131;
+    padding: 12px 28px;
+    max-width: 190px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px ;
+}
+
+
+
+.main__description {
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'NM';
+    text-align: center;
+    color: #313131;
+    margin-top: -65px;
+}
+
+.main__price  {
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'NL';
+    text-align: center;
+    color: #313131;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+
+.main__ps5 {
+    margin-top: 70px;
+}
+
+
+.main__ps5-title {
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    font-family: 'NSB';
+    color: #313131;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.main__ps5-link {
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'NR';
+    text-align: center;
+    color: #FFFFFF !important;
+    background: #313131;
+    padding: 12px 28px;
+    max-width: 190px;
+    width: 100%;
+}
+
+
+.main__ps5-logo {
+    margin-top: 94px;
+}
+
+
+
+.footer {
+    background: #313131;
+    padding: 30px;
+    margin-top: 70px;
+}
+
+
+.footer__title {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    font-family: 'NR';
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.footer__nav-btn {
+    max-width: 190px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 0%;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'NR';
+    text-align: center;
+    color: #FFFFFF;
+    background: #313131;
+    border-color: #FFFFFF;
+}
+
+.footer__nav-btn:hover {
+    background: #313131 !important;
+    border-color: #FFFFFF !important;
+}
+
+.footer__list-link {
+    display: inline-block;
+    padding: 0px 15px 0px 15px;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'NR';
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer__list-link:hover {
+    color: #FFFFFF !important;
+}
+
+.footer__list {
+    margin-top: 50px;
+    gap: 30px;
+}
+
+
+.footer__icon-tg::before {
+    content: '\f3fe';
+    font-size: 45px;
+    color: #FFFFFF;
+}
+
+
+.footer__icon-fb::before {
+    content: '\f09a';
+    font-size: 45px;
+    color: #FFFFFF;
+}
+
+
+.footer__icon-inst::before {
+    content: '\f16d';
+    font-size: 45px;
+    color: #FFFFFF;
+}
+
+.footer__icons {
+    margin-top: 20px;
+    
+    gap: 25px;
+}
+
+.main__xbox-title {
+    font-size: 48px;
+    line-height: 65px;
+    font-family:'NSB';
+    color: #313131;
+}
+
+
+.main__xbox-description {
+    max-width: 454px;
+    width: 100%;
+    font-size: 24px;
+    line-height: 33px;
+    font-family: 'NR';
+    color: #313131;
+}
+
+.main__link-xbox {
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'NR';
+    text-align: center;
+    color: #FFFFFF !important;
+    background: #313131;
+    padding: 12px 28px;
+    max-width: 190px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.xbox__img {
+    z-index: -1;
+}
+
+.main__xbox-link {
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'NR';
+    text-align: center;
+    color: #FFFFFF !important;
+    background: #313131;
+    padding: 12px 28px;
+    max-width: 190px;
+    width: 100%;
+    margin-top: 330px;
+}
+
+.footer__second-page {
+    background: #313131;
+    padding: 30px;
+}
+.main__numbers-btn {
+    color: #ABABAB;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    font-family: 'NR';
+}
+.main__numbers-btn::after {
+    content: '';
+    background: #ABABAB;
+    width: 2px;
+    height: 35px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 38px;
+}
+
+.main__numbers-btn:hover {
+    color: #313131;
+    border: white !important;
+}
+
+.main__numbers-btn:hover::after {
+    background: #313131;
+}
+
+.main__numbers {
+    display: flex;
+    justify-content: center ;
+    margin: 45px 0px;
+}
+
+.main__next {
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    font-family: 'NR';
+    color: #313131;
+}
+
+.main__next:hover {
+    border-color: white !important;
+}
+
+
+.main__cellphone-phones:hover .main__second-page-link {
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+}
+
+
+
+
+.main__cellphone-link {
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'NR';
+    text-align: center;
+    color: #FFFFFF !important;
+    background: #313131;
+    padding: 5px 35px;
+    max-width: 100px;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.main__second-page-link {
+    opacity: 0;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'NR';
+    text-align: center;
+    background: #313131 !important;
+    color: #FFFFFF !important;
+    padding: 5px 36px;
+    margin-top: -15px;
+    margin-bottom: 18px;
+}
+
+.main__cellphone-icon {
+    
+    top: 15px;
+    right: 15px;
+}
+
+.main__cellphone-icon::after {
+    content: '\f004';
+    width: 17px;
+    height: 15px;
+    color: #313131;
+    top: 0;
+    right: 0;
+}
+
+
+.main__iphone-content {
+    margin-left: 55px;
+
+}
+
+
+.main__iphone-title {
+    font-size: 30px;
+    line-height: 70px;
+    font-family: 'NSB';
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.main__iphone-description {
+    margin-top:-15px;
+    font-size: 24px;
+    line-height: 70px;
+    font-family: "NM";
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+
+.main__iphone-price {
+    font-size: 24px;
+    line-height: 70px;
+    font-family: 'NM';
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.main__iphone-details {
+    font-size: 14px;
+    line-height: 25px;
+    font-family: 'NR';
+    letter-spacing: 0.05em;
+    color: #000000;
+    list-style: circle !important;
+}
+
+
+.main__iphone-link {
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'NR';
+    text-align: center;
+    color: #FFFFFF !important;
+    background: #313131;
+    padding: 12px 28px;
+    max-width: 190px;
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom:40px;
+}
+
+.main__viar-description {
+    max-width: 454px;
+    width: 100%;
+    font-size: 24px;
+    line-height: 33px;
+    font-family: 'NR';
+    color: #313131;
+    margin-right: -70px;
+}
+
+.main__viar-content {
+    top: 0;
+    right: 110px;
+}
+
+.main__viar-img {
+    position: relative;
+}
+
+.main__ps5-link:last-child {
+    margin-top: 116px;
+}
+
+
+.iphone__details-third-page {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.main__iphone-img {
+    min-height: 400px;
+    height: 100%;
+}
